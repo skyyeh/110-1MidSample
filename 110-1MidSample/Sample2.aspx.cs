@@ -10,5 +10,16 @@ namespace _110_1MidSample {
         protected void Page_Load(object sender, EventArgs e) {
 
         }
+
+        // To generate a 4 digital number
+        public string mt_GenVeriStr() {
+            string s_Res = "";
+            Random o_Ran = new Random();
+            for (int i_Ct = 0; i_Ct < 4; i_Ct++) {
+                int i_Tmp = o_Ran.Next(0, 10);
+                s_Res = s_Res + i_Tmp.ToString();
+            }
+            return s_Res;
+        }
     }
 }
