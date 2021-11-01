@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 namespace _110_1MidSample {
     public partial class Sample1 : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
-            Response.Write(mt_2MD5("1234"));
+            
         }
 
         // To generate a 4 digital number
