@@ -12,7 +12,7 @@
         <div>
             <h2>會員註冊</h2><br />
             <asp:Label ID="Label1" runat="server" Text="手機電話(帳號)" Font-Size="X-Large"></asp:Label>
-            <asp:TextBox ID="tb_CellPhone" runat="server" Height="15" Width="200"></asp:TextBox><br /><br />
+            <asp:TextBox ID="tb_CellPhone" runat="server" Height="15px" Width="200px"></asp:TextBox><br /><br />
             <asp:Label ID="Label2" runat="server" Text="密碼" Font-Size="X-Large"></asp:Label>
             <asp:TextBox ID="tb_Ps" runat="server" Height="15px" Width="200px" TextMode="Password"></asp:TextBox>
             <asp:ImageButton ID="tb_images" runat="server" Height="30px" Width="80px" ImageUrl="eye-slash-solid.svg" /><br />
