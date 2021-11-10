@@ -12,7 +12,7 @@ namespace _110_1MidSample {
             if (IsPostBack == false)
             {
                 string s_Ver = mt_GenVeriStr();
-                mt_ImgPointer(ref Image1, s_Ver);
+                mt_ImgPointer(ref ig_Num, s_Ver);
                 hd_Num.Value = mt_2MD5(s_Ver);
             }
             //結束
@@ -78,5 +78,6 @@ namespace _110_1MidSample {
         {
 
         }
+
     }
 }

@@ -60,13 +60,13 @@ namespace _110_1MidSample
         protected global::System.Web.UI.WebControls.TextBox tb_Ps;
 
         /// <summary>
-        /// tb_Images 控制項。
+        /// tb_images 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton tb_Images;
+        protected global::System.Web.UI.WebControls.ImageButton tb_images;
 
         /// <summary>
         /// Label3 控制項。
@@ -114,13 +114,13 @@ namespace _110_1MidSample
         protected global::System.Web.UI.WebControls.TextBox tb_Num;
 
         /// <summary>
-        /// Image1 控制項。
+        /// ig_Num 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Image ig_Num;
 
         /// <summary>
         /// btn_Submit 控制項。

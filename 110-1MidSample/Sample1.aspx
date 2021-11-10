@@ -10,12 +10,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h2>會員註冊<br /></h2>
+            <h2>會員註冊</h2><br />
             <asp:Label ID="Label1" runat="server" Text="手機電話(帳號)" Font-Size="X-Large"></asp:Label>
-            <asp:TextBox ID="tb_CellPhone" runat="server"></asp:TextBox><br />
+            <asp:TextBox ID="tb_CellPhone" runat="server" Height="15" Width="200"></asp:TextBox><br /><br />
             <asp:Label ID="Label2" runat="server" Text="密碼" Font-Size="X-Large"></asp:Label>
-            <asp:TextBox ID="tb_Ps" runat="server"></asp:TextBox>
-            <asp:ImageButton ID="tb_Images" runat="server" Height="30" Width="80" ImageUrl="eye-slash-solid.svg" /><br />
+            <asp:TextBox ID="tb_Ps" runat="server" Height="15px" Width="200px" TextMode="Password"></asp:TextBox>
+            <asp:ImageButton ID="tb_images" runat="server" Height="30px" Width="80px" ImageUrl="eye-slash-solid.svg" /><br />
             <asp:Label ID="Label3" runat="server" Text="生理性別" Font-Size="X-Large"></asp:Label>
             <asp:RadioButtonList ID="rb_Gender" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow">
                 <asp:ListItem>男</asp:ListItem>
@@ -23,13 +23,13 @@
                 <asp:ListItem>其他</asp:ListItem>
             </asp:RadioButtonList><br />
             <asp:Label ID="Label4" runat="server" Text="影片說明" Font-Size="X-Large"></asp:Label>
-            <asp:HyperLink runat="server" ImageUrl="youtube-brands.svg" Height="30" Width="30" NavigateUrl="https://www.youtube.com/">HyperLink</asp:HyperLink><br />
+            <asp:HyperLink runat="server" ImageUrl="youtube-brands.svg" Height="30px" Width="30px" NavigateUrl="https://www.youtube.com/">HyperLink</asp:HyperLink><br />
 
-            <asp:Label ID="Label5" runat="server" Text="認證碼" Font-Size="X-Large"></asp:Label>
-            <asp:TextBox ID="tb_Num" runat="server"></asp:TextBox>
-            <asp:Image ID="Image1" runat="server" /><br />
+            <asp:Label ID="Label5" runat="server" Text="驗證碼" Font-Size="X-Large"></asp:Label>
+            <asp:TextBox ID="tb_Num" runat="server" Height="15px" Width="50px"></asp:TextBox>
+            <asp:Image ID="ig_Num" runat="server" /><br />
 
-            <asp:Button ID="btn_Submit" runat="server" Text="送出" Height="30" Width="80" PostBackUrl="~/Sample1Com.aspx" OnClick="btn_Submit_Click" />
+            <asp:Button ID="btn_Submit" runat="server" Text="送出" Height="30px" Width="80px" Onclick ="btn_Submit_Click" PostBackUrl="Sample1Com.aspx" />
 
             <asp:HiddenField ID="hd_Num" runat="server" />
         </div>
